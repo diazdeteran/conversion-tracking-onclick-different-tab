@@ -1,10 +1,10 @@
-//fire Floodlight on click
+// Fire Floodlight on click
 $(document).on('click', '#link', function(){
 	//fire Floodlight
 	floodlight();
 });
 
-//append floodlight iframe to body
+// Append floodlight iframe to body
 function floodlight(){
 	var axel = Math.random() + "";
 	var a = axel * 10000000000000;
